@@ -1,0 +1,14 @@
+C:\Users\Axiss\Desktop\C# Local\Rocnikovka-Pi\Rocnikovka-Pi\bin\Debug\Rocnikovka-Pi.exe.config
+C:\Users\Axiss\Desktop\C# Local\Rocnikovka-Pi\Rocnikovka-Pi\bin\Debug\Rocnikovka-Pi.exe
+C:\Users\Axiss\Desktop\C# Local\Rocnikovka-Pi\Rocnikovka-Pi\bin\Debug\Rocnikovka-Pi.pdb
+C:\Users\Axiss\Desktop\C# Local\Rocnikovka-Pi\Rocnikovka-Pi\obj\Debug\Rocnikovka-Pi.csproj.AssemblyReference.cache
+C:\Users\Axiss\Desktop\C# Local\Rocnikovka-Pi\Rocnikovka-Pi\obj\Debug\Rocnikovka-Pi.csproj.CoreCompileInputs.cache
+C:\Users\Axiss\Desktop\C# Local\Rocnikovka-Pi\Rocnikovka-Pi\obj\Debug\Rocnikovka-Pi.exe
+C:\Users\Axiss\Desktop\C# Local\Rocnikovka-Pi\Rocnikovka-Pi\obj\Debug\Rocnikovka-Pi.pdb
+I:\C#\Projects\Rocnikovka-Pi\Rocnikovka-Pi\bin\Debug\Rocnikovka-Pi.exe.config
+I:\C#\Projects\Rocnikovka-Pi\Rocnikovka-Pi\bin\Debug\Rocnikovka-Pi.exe
+I:\C#\Projects\Rocnikovka-Pi\Rocnikovka-Pi\bin\Debug\Rocnikovka-Pi.pdb
+I:\C#\Projects\Rocnikovka-Pi\Rocnikovka-Pi\obj\Debug\Rocnikovka-Pi.csproj.AssemblyReference.cache
+I:\C#\Projects\Rocnikovka-Pi\Rocnikovka-Pi\obj\Debug\Rocnikovka-Pi.csproj.CoreCompileInputs.cache
+I:\C#\Projects\Rocnikovka-Pi\Rocnikovka-Pi\obj\Debug\Rocnikovka-Pi.exe
+I:\C#\Projects\Rocnikovka-Pi\Rocnikovka-Pi\obj\Debug\Rocnikovka-Pi.pdb
