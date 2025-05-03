@@ -1,0 +1,8 @@
+                          Desktop  |  Laptop
+C:                                 |
+C#:                                |
+C++:                               |
+Java:                              |
+JavaScript:                        |
+Python:      1 min 14.056592 sec   |
+Rust:                              |
