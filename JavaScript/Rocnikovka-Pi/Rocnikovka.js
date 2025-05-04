@@ -17,4 +17,4 @@ const end = performance.now();
 
 console.log("JavaScript speaking here. Approximation of Pi: " + pi + ", Execution time (ms): " + (end - start));
 
-setTimeout(1000);
+setTimeout(() => {}, 1000000);
