@@ -31,7 +31,7 @@ namespace Rocnikovka_Pi
 
             sw.Stop();
 
-            Console.WriteLine($"Approximation of Pi: {pi}, ticks it took (ms): {sw.ElapsedMilliseconds}");
+            Console.WriteLine($"Approximation of Pi: {pi}, time it took (ms): {sw.ElapsedMilliseconds}");
             Console.ReadLine();
         }
     }
