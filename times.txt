@@ -1,10 +1,10 @@
                           Desktop  |  Laptop
-C:                      2735 ms    |
-C (.exe):                  2 ms    |
-C#:                     9553 ms    |
-C++:                    2735 ms    |
-C++ (.exe)                 2 ms    |
-Java:                   1037 ms    |
-JavaScript:             1050 ms    |
-Python:      1 min 14.056592 sec   |    3 min 43.558192 sec
-Rust:                   6817 ms    |
+C:                      2735 ms    |               6733 ms
+C (.exe):                  2 ms    |                  6 ms
+C#:                     9553 ms    |              24142 ms
+C++:                    2735 ms    |               6675 ms
+C++ (.exe)                 2 ms    |                  6 ms
+Java:                   1037 ms    |               2442 ms
+JavaScript:             1050 ms    |               2553 ms
+Python:             1 min 14 sec   |         3 min 43.5 sec
+Rust:                   6817 ms    |              15001 ms
