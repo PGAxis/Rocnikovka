@@ -1,0 +1,8 @@
+                          Desktop  |        Laptop          |       Štěpán
+C:                                 |                        |
+C#:                                |                        |
+C++:                               |                        |
+Java:                              |                144 ms  |
+JavaScript:                        |                        |
+Python:                            |                        |
+Rust:                              |                        |
