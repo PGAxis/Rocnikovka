@@ -1,9 +1,7 @@
                           Desktop  |  Laptop                       Štěpán
 C:                      2735 ms    |               6733 ms  |    860 ms
-C (.exe):                  2 ms    |                  6 ms  | 
 C#:                     9553 ms    |              24142 ms  |    8812 ms 
 C++:                    2735 ms    |               6675 ms  |    860 ms
-C++ (.exe)                 2 ms    |                  6 ms  |    
 Java:                   1037 ms    |               2442 ms  |    3177 ms 
 JavaScript:             1050 ms    |               2553 ms  |    1327 ms
 Python:             1 min 14 sec   |         3 min 43.5 sec |    1 min 32 sec
