@@ -1,6 +1,6 @@
                           Desktop  |        Laptop          |       Štěpán
 C:                                 |                        |
-C#:                                |                        |
+C#:                                |                161 ms  |
 C++:                               |                        |
 Java:                              |                218 ms  |
 JavaScript:                        |                        |
