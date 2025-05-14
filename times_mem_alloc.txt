@@ -4,5 +4,5 @@ C#:                                |                111 ms  |
 C++:                               |                547 ms  |
 Java:                              |                395 ms  |
 JavaScript:                        |                141 ms  |
-Python:                            |                        |
+Python:                            |                449 ms  |
 Rust:                              |                        |
