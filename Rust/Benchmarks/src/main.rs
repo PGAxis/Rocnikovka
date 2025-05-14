@@ -26,7 +26,7 @@ fn main() {
     println!("Dijkstra Benchmark: {:.2?}", dijkstra);
 
     // Write results to a file
-    let mut file = File::create("C:\\Users\\Axiss\\Desktop\\CodingLocal\\test_resultsRust2.txt").expect("Unable to create results file");
+    let mut file = File::create("test_resultsRust.txt").expect("Unable to create results file");
     writeln!(file, "Disk Write: {:.4?}", disk_write).unwrap();
     writeln!(file, "Matrix Multiplication: {:.4?}", matrix_mult).unwrap();
     writeln!(file, "Memory Allocation: {:.4?}", memory_alloc).unwrap();
