@@ -138,7 +138,7 @@ int main() {
     auto dijk = DijkstraBenchmark();
     cout << "Dijkstra " << dijk.count() << endl;
 
-    ofstream result("test_resultsCpp.txt");
+    ofstream result("test_results.txt");
     result << "Disk Write: " << disk.count() << "s\n";
     result << "Matrix Multiplication: " << mat.count() << "s\n";
     result << "Memory Allocation: " << mem.count() << "s\n";
