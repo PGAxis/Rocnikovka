@@ -5,4 +5,4 @@ C++:                    2735 ms    |               6675 ms  |    860 ms
 Java:                   1037 ms    |               2442 ms  |    3177 ms 
 JavaScript:             1050 ms    |               2553 ms  |    1327 ms
 Python:             1 min 14 sec   |         3 min 43.5 sec |    1 min 32 sec
-Rust:                   6817 ms    |               2437 ms  |    857 ms (release) 5300 ms (dev)
+Rust:                   1017 ms    |               2437 ms  |    857 ms (release) 5300 ms (dev)
