@@ -149,7 +149,7 @@ def run_benchmarks():
     for i in range(0,6):
         avrgTimes.append((allTimes[0][i] + allTimes[1][i] + allTimes[2][i]) / 3)
 
-    text = f"Disk write: {avrgTimes[0]}\nMatrix mult: {avrgTimes[1]}\nMemory allocation: {avrgTimes[2]}\nString processing: {avrgTimes[3]}\nQuck sort: {avrgTimes[4]}\nDijkstra: {avrgTimes[5]}\n"
+    text = f"Disk write: {avrgTimes[0]} s\nMatrix mult: {avrgTimes[1]} s\nMemory allocation: {avrgTimes[2]} s\nString processing: {avrgTimes[3]} s\nQuck sort: {avrgTimes[4]} s\nDijkstra: {avrgTimes[5]} s\n"
 
     open("test_results.txt", "w").write(text)
 
