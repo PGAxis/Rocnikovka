@@ -3,6 +3,6 @@ C:                                 |                  6 ms  |
 C#:                                |                 13 ms  |
 C++:                               |               1230 ms  |
 Java:                              |                 11 ms  |
-JavaScript:                        |                        |
+JavaScript:                        |                 14 ms  |
 Python:                            |                        |
 Rust:                              |                        |
