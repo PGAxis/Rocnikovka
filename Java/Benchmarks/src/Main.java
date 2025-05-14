@@ -51,7 +51,7 @@ public class Main {
             avrgTimes[i] = (allTimes[0][i] + allTimes[1][i] + allTimes[2][i]) / 3;
         }
 
-        try (PrintWriter writer = new PrintWriter("C:\\Users\\Axiss\\Desktop\\CodingLocal\\test_resultsJava.txt")) {
+        try (PrintWriter writer = new PrintWriter("test_results.txt")) {
             writer.println("Disk Write Benchmark: " + avrgTimes[0] + " ms");
             writer.println("Matrix Multiplication Benchmark: " + avrgTimes[1] + " ms");
             writer.println("Memory Allocation Benchmark: " + avrgTimes[2] + " ms");
