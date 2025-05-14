@@ -5,4 +5,4 @@ C++:                               |                0.4 ms  |
 Java:                              |                 35 ms  |
 JavaScript:                        |                2.8 ms  |
 Python:                            |                7.8 ms  |
-Rust:                              |                        |
+Rust:                              |                 88 ms  |
