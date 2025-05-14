@@ -1,8 +1,8 @@
                           Desktop  |        Laptop          |       Štěpán
-C:                          288 ms |                492 ms  |
-C#:                         105 ms |                111 ms  |
-C++:                        265 ms |                547 ms  |
-Java:                       327 ms |                395 ms  |
-JavaScript:                  47 ms |                141 ms  |
-Python:                     160 ms |                449 ms  |
-Rust:                       9.9 ms |                 23 ms  |
+C:                          288 ms |                492 ms  |           4 ms
+C#:                         105 ms |                111 ms  |           10 ms
+C++:                        265 ms |                547 ms  |           4.4 ms
+Java:                       327 ms |                395 ms  |           207 ms
+JavaScript:                  47 ms |                141 ms  |           100 ms 
+Python:                     160 ms |                449 ms  |           291 ms
+Rust:                       9.9 ms |                 23 ms  |           4.22 ms
