@@ -1,0 +1,7 @@
+C:\Users\Axiss\Desktop\CodingLocal\Tests\Tests\bin\Debug\Tests.exe.config
+C:\Users\Axiss\Desktop\CodingLocal\Tests\Tests\bin\Debug\Tests.exe
+C:\Users\Axiss\Desktop\CodingLocal\Tests\Tests\bin\Debug\Tests.pdb
+C:\Users\Axiss\Desktop\CodingLocal\Tests\Tests\obj\Debug\Tests.csproj.AssemblyReference.cache
+C:\Users\Axiss\Desktop\CodingLocal\Tests\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+C:\Users\Axiss\Desktop\CodingLocal\Tests\Tests\obj\Debug\Tests.exe
+C:\Users\Axiss\Desktop\CodingLocal\Tests\Tests\obj\Debug\Tests.pdb

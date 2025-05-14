@@ -1,0 +1,6 @@
+Disk Write: 1.60s
+Matrix Multiplication: 177.44ms
+Memory Allocation: 24.33ms
+String Processing: 98.87ms
+Quicksort: 34.13ms
+Dijkstra: 3.82ms
