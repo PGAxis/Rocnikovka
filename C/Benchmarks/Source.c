@@ -169,6 +169,12 @@ int main() {
     printf("Press Enter to start...\n");
     getchar();
 
+    double disk = benchmark_disk_write();
+    printf("Disk Write Benchmark: %.3f s\n", disk);
+    double matrix = benchmark_matrix_mult();
+    printf("Matrix Multiplication Benchmark: %.3f s\n", matrix);
+    double memory = benchmark_memory_alloc();
+    printf("Memory Allocation Benchmark: %.3f s\n", memory);
     double string = benchmark_string();
     printf("String Processing Benchmark: %.55f s\n", string);
     double quicksort = benchmark_quicksort();
@@ -178,9 +184,12 @@ int main() {
 
     FILE* out = fopen("test_results.txt", "w");
     if (out) {
-        fprintf(out, "String Processing Benchmark: %.3f s\n", string);
-        fprintf(out, "Quicksort Benchmark: %.3f s\n", quicksort);
-        fprintf(out, "Dijkstra Benchmark: %.3f s\n", dijkstra_time);
+        fprintf(out, "Disk Write Benchmark: %.6f s\n", disk);
+        fprintf(out, "Matrix Multiplication Benchmark: %.6f s\n", matrix);
+        fprintf(out, "Memory Allocation Benchmark: %.6f s\n", memory);
+        fprintf(out, "String Processing Benchmark: %.6f s\n", string);
+        fprintf(out, "Quicksort Benchmark: %.6f s\n", quicksort);
+        fprintf(out, "Dijkstra Benchmark: %.6f s\n", dijkstra_time);
         fclose(out);
     }
 
