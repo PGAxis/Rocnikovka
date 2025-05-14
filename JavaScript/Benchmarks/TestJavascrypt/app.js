@@ -127,6 +127,6 @@ for (const [name, time] of Object.entries(results)) {
     console.log(`${name}: ${time.toFixed(2)} ms`);
 }
 
-fs.writeFileSync("C:\\Users\\Axiss\\Desktop\\CodingLocal\\test_resultsJS2.txt", Object.entries(results).map(([k, v]) => `${k}: ${v.toFixed(2)} ms`).join('\n'));
+fs.writeFileSync("test_results.txt", Object.entries(results).map(([k, v]) => `${k}: ${v.toFixed(2)} ms`).join('\n'));
 
 require("readline").createInterface({ input: process.stdin, output: process.stdout }).question("Press Enter to exit...", () => process.exit());
