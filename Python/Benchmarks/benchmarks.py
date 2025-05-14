@@ -151,7 +151,7 @@ def run_benchmarks():
 
     text = f"Disk write: {avrgTimes[0]}\nMatrix mult: {avrgTimes[1]}\nMemory allocation: {avrgTimes[2]}\nString processing: {avrgTimes[3]}\nQuck sort: {avrgTimes[4]}\nDijkstra: {avrgTimes[5]}\n"
 
-    open("C:\\Users\\Axiss\\Desktop\\CodingLocal\\test_resultsPython.txt", "w").write(text)
+    open("test_results.txt", "w").write(text)
 
 
 if __name__ == "__main__":
