@@ -176,7 +176,7 @@ int main() {
     double dijkstra_time = benchmark_dijkstra();
     printf("Dijkstra Benchmark: %.3f s\n", dijkstra_time);
 
-    FILE* out = fopen("C:\\Users\\Axiss\\Desktop\\CodingLocal\\test_resultsC3.txt", "w");
+    FILE* out = fopen("test_results.txt", "w");
     if (out) {
         fprintf(out, "String Processing Benchmark: %.3f s\n", string);
         fprintf(out, "Quicksort Benchmark: %.3f s\n", quicksort);
