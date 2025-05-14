@@ -30,7 +30,7 @@ namespace Tests
             TimeSpan dijkstraBench = DijkstraBenchmark();
             Console.WriteLine("Dijkstra Benchmark: " + dijkstraBench);
 
-            string path = "C:\\Users\\Axiss\\Desktop\\CodingLocal\\test_resultsCS2.txt";
+            string path = "test_results.txt";
             using (var writer = new StreamWriter(path))
             {
                 writer.WriteLine("Disk Write: " + diskWrite);
