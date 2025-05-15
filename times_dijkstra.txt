@@ -1,7 +1,7 @@
                           Desktop  |        Laptop          |       Štěpán
-C:                            3 ms |                  0 ms  |           2 ms
+C:                            0 ms |                  0 ms  |           2 ms
 C#:                         5.8 ms |                 13 ms  |           3.1 ms
-C++:                        445 ms |                4,5 ms  |           3.3 ms
+C++:                          2 ms |                4,5 ms  |           3.3 ms
 Java:                         6 ms |                 11 ms  |           4 ms
 JavaScript:                 6.5 ms |                 14 ms  |           8.9 ms
 Python:                       2 ms |                3.9 ms  |           1.8 ms
