@@ -32,14 +32,5 @@ int main() {
     while (true) {
         pi = calcpi(iterations, &elapsedTime);
         printf("C speaking here. Approximation of Pi: %.15f, Execution time (ms): %.2f\n", pi, elapsedTime);
-
-        printf("\nPress any key to exit or press R to repeat\n");
-
-        char choice = getchar();
-        while (getchar() != '\n');
-        if(tolower(choice) != 'r')
-            return 0;
-        
-        printf("Calculating again...\n");
     }
 }
