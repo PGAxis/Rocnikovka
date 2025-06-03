@@ -33,7 +33,6 @@ def matrix_multiplication():
     C = np.zeros((N, N))
 
     def multiply():
-        #global C
         for i in range(N):
             for j in range(N):
                 for k in range(N):
