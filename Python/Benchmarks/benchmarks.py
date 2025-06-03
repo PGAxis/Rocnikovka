@@ -21,7 +21,7 @@ def disk_write_benchmark():
         lines.append(f"Benchmark line {i}")
     content = "\n".join(lines)
     duration = measure_time(lambda: open(path, 'w').write(content))
-    os.remove(path)  # Clean up
+    os.remove(path)
     return duration
 
 
@@ -49,16 +49,16 @@ def memory_allocation():
 
     def allocate():
         for _ in range(1000):
-            blocks.append(bytearray(1024 * 1024))  # 1 MB block
+            blocks.append(bytearray(1024 * 1024))
 
     duration = measure_time(allocate)
-    blocks.clear()  # Clear references
+    blocks.clear()
     return duration
 
 
 # String Processing Benchmark
 def string_processing():
-    test_string = 'a' * 10_000_000  # 10 million characters
+    test_string = 'a' * 10_000_000
 
     def process():
         found = 'aaa' in test_string
@@ -82,17 +82,17 @@ def quicksort_benchmark():
 
 # Dijkstra's Algorithm Benchmark
 def dijkstra_benchmark():
-    V = 1000  # Number of vertices
+    V = 1000
     graph = {i: {} for i in range(V)}
     for i in range(V):
         for j in range(V):
-            if i != j and random.random() < 0.01:  # Sparse graph
+            if i != j and random.random() < 0.01:
                 graph[i][j] = random.randint(1, 10)
 
     def dijkstra(graph, start):
         distances = {vertex: float('infinity') for vertex in graph}
         distances[start] = 0
-        pq = [(0, start)]  # (distance, vertex)
+        pq = [(0, start)]
 
         while pq:
             current_distance, current_vertex = heapq.heappop(pq)
