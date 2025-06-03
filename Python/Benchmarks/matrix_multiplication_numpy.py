@@ -17,4 +17,4 @@ def matrix_multiplication():
     duration = measure_time(multiply)
     return duration
 
-print(f"Matrix multiplication using NumPy: {matrix_multiplication()} s")
+print(f"Matrix multiplication using NumPy: {matrix_multiplication()} s")   # Matrix multiplication using NumPy: 0.0019752979278564453 s
